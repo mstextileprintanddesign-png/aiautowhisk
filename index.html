@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TextileLearn - Textile Learning & Education</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="container">
+            <div class="logo">TextileLearn</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#tutorials">Tutorials</a></li>
+                <li><a href="#resources">Resources</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Master the Art of Textiles</h1>
+            <p>Learn textile design, printing, and production techniques from industry experts</p>
+            <button class="cta-btn" onclick="document.getElementById('courses').scrollIntoView({behavior: 'smooth'})">Explore Courses</button>
+        </div>
+    </section>
+
+    <section id="courses" class="courses">
+        <div class="container">
+            <h2>Featured Courses</h2>
+            <div class="courses-grid" id="coursesGrid">
+                <!-- Course cards will be loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <section id="tutorials" class="tutorials">
+        <div class="container">
+            <h2>Quick Tutorials</h2>
+            <div class="tutorials-grid" id="tutorialsGrid">
+                <!-- Tutorial cards will be loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <section id="resources" class="resources">
+        <div class="container">
+            <h2>Learning Resources</h2>
+            <div class="resources-list" id="resourcesList">
+                <!-- Resources will be loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About TextileLearn</h2>
+            <p>TextileLearn is dedicated to providing comprehensive education in textile design, printing techniques, fabric production, and sustainable practices. Our platform connects learners with experienced textile professionals worldwide.</p>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 TextileLearn. All rights reserved. | Empowering Textile Education Worldwide</p>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
